@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsoluteLayout.About_us"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="White">
+            <Image 
+                Source="https://w0.peakpx.com/wallpaper/543/730/HD-wallpaper-cow-skin-milk.jpg"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.2,850,850"
+                Opacity="0.09"
+            />
+            <ImageButton
+                Source="https://cdn.discordapp.com/attachments/693450106590068778/1068421858396995604/previous.png"
+                CornerRadius="25"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.05,0.03,50,50"
+                Clicked="Return_Login"
+            />
+            <Label 
+                FontSize="32"
+                TextColor="Black"
+                HorizontalTextAlignment="Center"
+                Text="CHOKCHAI FARM"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.1,350,250"
+            />
+            
+            <Image 
+                Source="https://cdn.discordapp.com/attachments/693450106590068778/1070632179580809287/IMG_3387.jpg"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.25,350,350"
+            />
+            <Label 
+                FontSize="24"
+                TextColor="Black"
+                HorizontalTextAlignment="Center"
+                Text="Developer"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.85,350,250"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Black"
+                HorizontalTextAlignment="Start"
+                Text="Name :"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.4,0.72,250,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Purple"
+                HorizontalTextAlignment="End"
+                Text="Panukorn Suntonprasert"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.72,250,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Black"
+                HorizontalTextAlignment="Start"
+                Text="Date of Birth :"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.4,0.76,250,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Purple"
+                HorizontalTextAlignment="End"
+                Text="26 January 2005"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.76,250,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Black"
+                HorizontalTextAlignment="Start"
+                Text="Address :"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.4,0.8,250,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Purple"
+                HorizontalTextAlignment="Start"
+                Text="29/25 Moo.3, Tuboan CherngNern, Meung Rayong District, Rayong Province"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.7,0.8,180,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Black"
+                HorizontalTextAlignment="Start"
+                Text="Contact :"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.24,0.94,150,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Purple"
+                HorizontalTextAlignment="End"
+                Text="+66 85 8132794"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.54,0.94,150,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Black"
+                HorizontalTextAlignment="Start"
+                Text="Instagram :"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.24,0.98,150,100"
+            />
+            <Label 
+                FontSize="18"
+                TextColor="Purple"
+                HorizontalTextAlignment="End"
+                Text="kurume_mark"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.15,0.98,250,100"
+            />
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

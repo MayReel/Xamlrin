@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsoluteLayout.register"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="White">
+            <Image 
+                Source="https://w0.peakpx.com/wallpaper/543/730/HD-wallpaper-cow-skin-milk.jpg"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.2,850,850"
+                Opacity="0.09"
+            />
+            <ImageButton
+                Source="https://cdn.discordapp.com/attachments/693450106590068778/1068421858396995604/previous.png"
+                CornerRadius="25"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.05,0.03,50,50"
+                Clicked="Return_Login"
+            />
+            <Label 
+                FontSize="56"
+                TextColor="Black"
+                HorizontalTextAlignment="Center"
+                Text="REGISTER"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.1,350,250"
+            />
+
+
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.2,300,50"
+            />
+
+            <Entry
+                FontSize="14"
+                Placeholder="Email"
+                PlaceholderColor="Gray"
+                TextColor="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.2,260,50"
+            />
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.3,300,50"
+            />
+            <Entry
+                FontSize="14"
+                Placeholder="Password"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.3,260,50"
+            />
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.4,300,50"
+            />
+            <Entry
+                FontSize="14"
+                Placeholder="Comfirm Password"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.4,260,50"
+            />
+
+
+
+
+            <Frame 
+                BackgroundColor="Black"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.475,215,8"
+            />
+
+
+
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.2,0.55,135,50"
+            />
+            <Entry
+                FontSize="14"
+                Placeholder="Name"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.23,0.55,88,50"
+            />
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.8,0.55,135,50"
+            />
+            <Entry
+                FontSize="14"
+                Placeholder="Surname"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.75,0.55,88,50"
+            />
+
+
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.65,300,50"
+            />
+            <Entry
+                FontSize="12"
+                Placeholder="Date of Birth > day/month/year"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.65,260,50"
+            />
+
+
+
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.2,0.75,135,50"
+            />
+            <Entry
+                FontSize="12"
+                Placeholder="Phone Number"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.23,0.75,88,50"
+            />
+            <Frame 
+                BorderColor="black"
+                BackgroundColor="White"
+                CornerRadius="35"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.8,0.75,135,50"
+            />
+            <Entry
+                FontSize="14"
+                Placeholder="Gender"
+                PlaceholderColor="Gray"
+                TextColor="black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.75,0.75,88,50"
+            />
+            <CheckBox 
+                Color="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.15,0.815,35,35"
+            />
+            <Label 
+                FontSize="14"
+                Text="Tour Booking"
+                TextColor="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.3,0.825,100,35"
+            />
+            <CheckBox 
+                Color="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.6,0.815,35,35"
+            />
+            <Label 
+                FontSize="14"
+                Text="Reservation"
+                TextColor="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.85,0.825,100,35"
+            />
+
+
+            <CheckBox 
+                Color="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.15,0.855,35,35"
+            />
+            <Label 
+                FontSize="14"
+                Text="Visit"
+                TextColor="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.3,0.865,100,35"
+            />
+            <CheckBox 
+                Color="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.45,0.855,35,35"
+            />
+            <Label 
+                FontSize="14"
+                Text="Miscellaneous Items"
+                TextColor="Black"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.805,0.865,150,35"
+            />
+
+
+
+            
+            <Button 
+               FontSize="14"
+               Text="FINISH"
+               CornerRadius="45"
+               BackgroundColor="Black"
+               TextColor="White"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="0.5,0.925,150,50"  
+            />
+            <CheckBox 
+                Color="red"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.12,0.97,30,30"
+            />
+            <Label 
+                FontSize="11"
+                Text="I'm agree with ChockChai Farm's Personal Data Processing Agreement"
+                TextColor="Red"
+                HorizontalTextAlignment="Center"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5,0.98,250,35"
+            />
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsoluteLayout.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <AbsoluteLayout BackgroundColor="White">
+        <Image 
+            Source="https://cdn.discordapp.com/attachments/693450106590068778/1065849931052630026/istockphoto-1148997124-612x612.jpg"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,1200,1200"
+            Opacity="0.09"
+        />
+        <ImageButton 
+            Source="https://media.discordapp.net/attachments/693450106590068778/1065851592689074278/62470.png"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.09,200,200"
+            BackgroundColor="#0000ffff"
+            Clicked="About_Us"
+        />
+        <Label 
+            FontSize="36"
+            TextColor="Black"
+            HorizontalTextAlignment="Center"
+            Text="CHOKCHAI FARM"
+            FontAttributes="Bold"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.42,350,250"
+        />
+
+        <Frame 
+            BorderColor="black"
+            BackgroundColor="White"
+            CornerRadius="35"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.4,300,50"
+        />
+        
+        <Entry
+            FontSize="14"
+            Placeholder="Email"
+            PlaceholderColor="Gray"
+            TextColor="Black"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.4,260,50"
+        />
+        <Frame 
+            BorderColor="black"
+            BackgroundColor="White"
+            CornerRadius="35"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,300,50"
+        />
+        <Entry
+            FontSize="14"
+            Placeholder="Password"
+            PlaceholderColor="Gray"
+            TextColor="black"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,260,50"
+        />
+        
+        <Button
+            TextColor="White"
+            Text="sign in"
+            BackgroundColor="Black"
+            CornerRadius="25"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.63,100,70"
+        />
+        <Button
+            TextColor="Black"
+            Text="register"
+            BackgroundColor="#DADADA"
+            CornerRadius="25"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.8,200,50"
+            Clicked="Clicked_Register"
+        />
+        <Button
+            TextColor="Black"
+            Text="Forgot Password?"
+            BackgroundColor="#DADADA"
+            CornerRadius="25"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.9,200,50"
+        />
+        <Label 
+            TextColor="Gray"
+            HorizontalTextAlignment="Center"
+            Text="Don't Have an account yet?
+            Create one"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5,0.73,200,50"
+            />
+        <Frame 
+            BackgroundColor="Black"
+            CornerRadius="35"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.3,0.625,20,30"
+        />
+        <Frame 
+            BackgroundColor="Black"
+            CornerRadius="35"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.7,0.625,20,30"
+        />
+
+    </AbsoluteLayout>
+
+</ContentPage>
